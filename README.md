@@ -1,5 +1,11 @@
 # Kong APIs to Services and Routes Migration
 
+# fork之后的修改
+
+旧版本使用0.13.1的 kong，迁移到新版本使用 2.6.x。
+为了平滑迁移，两个版本并存，将旧版本的数据洗到新版本中。
+原 repo 是在同一个 kong 中操作，改成了在新、旧两台 kong 服务中迁移
+
 Simple script to convert all Kong v0.14.1 APIs (and their plugins) to Services and Routes.
 
 # Motivation
